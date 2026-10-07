@@ -12,7 +12,7 @@ public class PathTest02 {
         if(Files.notExists(pastaPath)) {
             Files.createDirectory(pastaPath);
         }
-        Path subpasta = Paths.get("Bosta\\subpasta");
+        Path subpasta = Paths.get("Bosta", "subpasta");
         if(Files.notExists(subpasta)) {
             Path subdirectory = Files.createDirectory(subpasta);
         }

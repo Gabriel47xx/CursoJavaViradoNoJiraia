@@ -24,7 +24,7 @@ public class TryWithResoucesTest01 {
     public static void lerArquivo02(){
         Reader reader = null;
         try {
-            reader = new BufferedReader(new FileReader("teste.txt"));
+            reader = new BufferedReader(new FileReader("file.txt"));
 
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
